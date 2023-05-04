@@ -1,0 +1,303 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+:root{
+    background-color: #088395;
+    font-family: sans-serif;
+    
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*ICONO Y ANCLAS*/
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #088395;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    background-size: cover;
+    background-position: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    min-width: 300px;
+
+}
+
+.logoimg{
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+}
+
+nav a{
+    font-weight: 600;
+    padding: 10px;
+}
+
+nav a:hover{
+    color: white;
+}
+
+/*PRESENTACION*/
+
+.presentacion{
+    width: 100%;
+    height: 100em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0,0,0,0;
+    
+    
+}
+
+.presentacion-hijo{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.presentacion-hijo h2{
+    color: white;
+    font-size: 3rem;
+    
+}
+
+.presentacion-hijo h3{
+    text-align: center;
+    color: white;
+    font-size: 1.8rem;
+    justify-content: center;
+}
+
+.pbox{
+    width: 800px;
+    height: 600px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    margin: 1.5%;
+    
+}
+
+.pbox img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pbox .phover{
+    width: 0%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.336);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition:4s all;
+    
+}
+
+.phover h1{
+    color: #fff;
+    text-shadow: 1px 1px 1px black;
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+.phover p{
+    color: #fff;
+}
+
+.pbox:hover .phover{
+    width: 100%;
+}
+
+
+/*INTRODUCCION*/
+
+.section{
+    width: 100%;
+    height: 100em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0,0,0,0;
+    cursor: pointer;
+}
+
+.box{
+    width: 800px;
+    height: 600px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    margin: 1.5%;
+}
+
+.box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box .hover{
+    width: 0%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.336);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition:4s all;
+}
+
+.hover h1{
+    color: #fff;
+    text-shadow: 1px 1px 1px black;
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+.hover p{
+    color: #fff;
+}
+
+.box:hover .hover{
+    width: 100%;
+}
+
+
+
+
+/*BUSCADOR*/
+
+.div-buscador{
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+
+
+}
+
+.bselect{
+   align-items: center;   
+      
+}
+
+.buscador h2{
+    text-align: center;
+    margin-left: 90px;
+    color: white;
+    font-size: 2rem;
+}
+
+.buscador h4{
+    text-align: center;
+    margin-left: 90px;
+    color: white;
+    font-size: .8rem;
+}
+
+.buscador select{
+   
+    
+}
+/*REDES SOCIALES*/
+
+footer{
+    background-color: white;
+}
+
+.container-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 3rem;
+}
+
+.menu-footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 4rem;
+    justify-content: center;
+}
+
+.title-footer{
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/*
+.presentacion{
+    padding: 40px 90px 40px 90px;
+    text-align: center;
+}
+
+.presentacion h2{
+    text-align: center;
+    margin-left: 90px;
+    color: white;
+    font-size: 3rem;
+}
+
+.presentacion h3{
+    text-align: justify;
+    text-align: center;
+    margin-left: 90px;
+    color: white;
+    font-size: 1.8rem;
+}
+
+.presentacion img{
+    border-radius: 40px;
+    border: 2px solid white;
+    margin: 50px;
+    height: 500px;
+    width: 700px;
+    justify-content: center;  
+}
+*/

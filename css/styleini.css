@@ -1,0 +1,216 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+:root{
+    background-color: #088395;
+    font-family: sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*ICONO Y ANCLAS*/
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #088395;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px ;
+    font-size: 1.5rem;
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+
+.logoimg{
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+}
+
+nav a{
+    font-weight: 600;
+    padding: 10px;
+}
+
+nav a:hover{
+    color: white;
+}
+
+/*IMAGEN Y TEXTO INICIO*/
+
+.main-ini{
+    display: flex;
+}
+
+.section-ini{
+    
+    height: 50%;
+    width: 50%;
+    justify-content: center;
+    
+
+}
+
+.mainimg{
+    display: flex;
+    margin: 10%; 
+    width: 50%;
+    padding-left: 25%;
+    
+}
+
+.aside-ini{
+    width: 50%;
+    
+}
+
+.form1{
+    text-align: center;
+    justify-content: center;
+     
+
+}
+
+.div1{
+    padding: 30px 60px  
+}
+
+.div2{
+    justify-content: center;
+    align-items: center;
+    padding: 20%;   
+}
+
+.div1 h1 {
+    font-size: 6rem;
+    font-weight: 700;
+}
+
+.h1-text{
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0;
+    color: white;
+}
+
+.p-text{
+    font-size: 2rem;
+    font-style: italic;
+    margin: 20px 0 0;
+    color: white;
+}
+
+.a-mostrar{
+    border-width: 10px;
+    margin: 0;
+    border: solid white;
+    padding: .5rem;
+    color: white;
+    font-size: 1.5rem;
+}
+
+/*PRESENTACION*/
+
+.div2{
+    width: 800px;
+    height: 600px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    margin: 1.5%;
+}
+
+.div2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.div2 .phover{
+    width: 0%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.336);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition:4s all;
+}
+
+.phover h1{
+    color: #fff;
+    text-shadow: 1px 1px 1px black;
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+.phover p{
+    color: #fff;
+}
+
+.pbox:hover .phover{
+    width: 100%;
+}
+
+/*REDES SOCIALES*/
+
+footer{
+    background-color: white;
+}
+
+.container-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 3rem;
+}
+
+.menu-footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 4rem;
+    justify-content: center;
+}
+
+.title-footer{
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
